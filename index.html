@@ -1,30 +1,5 @@
-<!DOCTYPE html>
 <html>
-<body>
+    <button type="button" 
+    onclick=" window.close();">Close</button>
 
-<h1>The Window Object</h1>
-<h2>The open() and close() Methods</h2>
-
-<button onclick="closeWin()">Close "myWindow"</button>
-<a href="javascript:close_window();">close</a>
-
-<script>
-let myWindow;
-
-function openWin() {
-  myWindow = window.open("", "", "width=200,height=100");
-}
-
-function closeWin() {
-  window.close();
-}
-
-function close_window() {
-  if (confirm("Close Window?")) {
-    close();
-  }
-}
-</script>
-
-</body>
 </html>
